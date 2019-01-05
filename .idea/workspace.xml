@@ -18,23 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="createFirstPlot.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2-KNN/extras/createFirstPlot.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
-              <folding>
-                <element signature="e#15#33#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="kNN.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/2-KNN/kNN.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="45" column="32" selection-start-line="45" selection-start-column="32" selection-end-line="45" selection-end-column="32" />
+            <state relative-caret-position="-409">
+              <caret line="43" column="39" lean-forward="true" selection-start-line="43" selection-start-column="39" selection-end-line="43" selection-end-column="39" />
               <folding>
                 <element signature="e#15#33#0" expanded="true" />
               </folding>
@@ -50,6 +38,9 @@
         <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -73,12 +64,13 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-44" />
     <option name="y" value="464" />
     <option name="width" value="1657" />
     <option name="height" value="1053" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -255,21 +247,20 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="316" y="454" width="1657" height="1053" extended-state="0" />
-    <editor active="true" />
+    <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="7" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Python Console" order="13" weight="0.32970026" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.16359447" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.55489963" />
       <window_info anchor="bottom" id="Terminal" order="12" weight="0.32988507" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.5777778" visible="true" weight="0.20253968" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.5777778" visible="true" weight="0.18012422" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.32988507" />
-      <window_info anchor="right" id="SciView" order="4" sideWeight="0.57461405" visible="true" weight="0.21396825" />
+      <window_info anchor="right" id="SciView" order="4" sideWeight="0.57461405" visible="true" weight="0.19028798" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.39885056" />
@@ -487,8 +478,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/2-KNN/kNN.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="45" column="32" selection-start-line="45" selection-start-column="32" selection-end-line="45" selection-end-column="32" />
+        <state relative-caret-position="-409">
+          <caret line="43" column="39" lean-forward="true" selection-start-line="43" selection-start-column="39" selection-end-line="43" selection-end-column="39" />
           <folding>
             <element signature="e#15#33#0" expanded="true" />
           </folding>
