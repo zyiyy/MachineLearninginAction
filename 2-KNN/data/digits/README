@@ -1,0 +1,5 @@
+手写数字数据集说明
+digits文件夹下有两个子文件夹testDigits, trainingDigits
+1. trainingDigits中包含大约2000个例子, 0-9每个数字大约有200个样本;
+2. testDigits中包含大约900个测试数据;
+3. 文件名首字符就是它的类别, 两组数据没有重叠;
