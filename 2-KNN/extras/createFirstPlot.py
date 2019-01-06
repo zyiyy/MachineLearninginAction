@@ -26,3 +26,4 @@ if __name__ == '__main__':
     plt.ylabel('Percentage of Time Spent Playing Video Games')
     plt.show()
     plt.close(2)
+
