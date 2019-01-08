@@ -40,14 +40,13 @@ def classify0(inX, dataSet, labels, k):
     dataSetSize = dataSet.shape[0]
     # np.tile(X, (x,y)) : 重复X, 纵向重复x次, 横向重复y次; np.tile(X, x) : 重复X, 横向重复x次
     diffMat = np.tile(inX, (dataSetSize, 1)) - dataSet
-    # sqDiffMat = diffMat ** 2  # 欧氏距离
-    sqDiffMat = np.abs(diffMat) # 曼哈顿距离
+    sqDiffMat = diffMat ** 2  # 欧氏距离
+    # sqDiffMat = np.abs(diffMat) # 曼哈顿距离
     # axis = 1 : 按行加; axis = 0 : 按列加
     sqDistances = sqDiffMat.sum(axis=1)
     distances = sqDistances ** 0.5
     # 返回排序后的下标
     sortedDistIndicies = distances.argsort()
-    # print(sortedDistIndicies)
     classCount = dict()
     for i in range(k):
         voteIlabel = labels[sortedDistIndicies[i]]
@@ -101,7 +100,7 @@ def standardization(dataSet):
 # 约会数据集kNN效果测评
 def datingClassTest():
     datingDataMat, datingLabels = file2matrix('./data/datingTestSet.txt')
-    hoRatio = 0.10
+    hoRatio = 0.1
     # normDataMat = datingDataMat
     normDataMat, _, _ = autoNorm(datingDataMat)
     # normDataMat, _, _ = standardization(datingDataMat)
@@ -161,8 +160,9 @@ def handwritingClassTest():
         classNum = int(fileNameStr.split('_')[0])
         classifierResult = classify0(img2vector(os.path.join('./data/digits/testDigits', fileNameStr)),
                                     traningMat, hwLabels, k = 3)
-        print('the classifier came back with : {}, the real answer is : {}'.format(classifierResult, classNum))
+        # print('the classifier came back with : {}, the real answer is : {}'.format(classifierResult, classNum))
         if classifierResult != classNum:
+            print('the classifier came back with : {}, the real answer is : {}'.format(classifierResult, classNum))
             errorCount += 1.0
     print('ErrorCount is {}.'.format(errorCount))
     print('Accuracy is {}.'.format(1 - errorCount / float(mTest)))
@@ -170,8 +170,8 @@ def handwritingClassTest():
 
 if __name__ == '__main__':
     # fourDotTest()
-    # datingClassTest()
+    datingClassTest()
     # classifyPerson()
-    handwritingClassTest()
+    # handwritingClassTest()
 
 
