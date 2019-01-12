@@ -1,0 +1,13 @@
+lenses.txt 数据集介绍:
+
+特征列(前四列):
+
+age
+prescript
+astigmatic
+tearRate
+
+类别(最后一列):
+
+{hard: 硬材质, soft: 软材质, no lenses: 不适合佩戴隐形眼睛}
+

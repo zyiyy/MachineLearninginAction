@@ -1,0 +1,30 @@
+非平衡数据集: {<=50K: 24720, >50K: 7841}
+
+数值列
+                age        fnlwgt  education-num  capital-gain  capital-loss  hours-per-week
+count  48842.000000  4.884200e+04   48842.000000  48842.000000  48842.000000    48842.000000
+mean      38.643585  1.896641e+05      10.078089   1079.067626     87.502314       40.422382
+std       13.710510  1.056040e+05       2.570973   7452.019058    403.004552       12.391444
+min       17.000000  1.228500e+04       1.000000      0.000000      0.000000        1.000000
+25%       28.000000  1.175505e+05       9.000000      0.000000      0.000000       40.000000
+50%       37.000000  1.781445e+05      10.000000      0.000000      0.000000       40.000000
+75%       48.000000  2.376420e+05      12.000000      0.000000      0.000000       45.000000
+max       90.000000  1.490400e+06      16.000000  99999.000000   4356.000000       99.000000
+
+非数值列：
+  'workclass'  : [' Private', ' Self-emp-inc', ' State-gov', ' Local-gov', ' Without-pay', ' Self-emp-not-inc', ' Federal-gov', ' Never-worked', ' ?']
+'relationship' : [' Wife', ' Own-child', ' Unmarried', ' Husband', ' Other-relative', ' Not-in-family']
+          'sex': [' Male', ' Female']
+        'race' : [' Asian-Pac-Islander', ' White', ' Other', ' Amer-Indian-Eskimo', ' Black']
+'native-country' : [' Iran', ' Cuba', ' Puerto-Rico', ' Outlying-US(Guam-USVI-etc)', ' El-Salvador', ' Guatemala', ' Holand-Netherlands', ' United-States',
+                    ' China', ' Thailand', ' Haiti', ' Germany', ' Columbia', ' Hungary', ' Dominican-Republic', ' Poland', ' Philippines', ' Trinadad&Tobago',
+                    ' Vietnam', ' South', ' Honduras', ' Mexico', ' Portugal', ' England', ' Jamaica', ' India', ' Yugoslavia', ' Greece', ' Japan', ' Taiwan',
+                    ' ?', ' Nicaragua', ' Canada', ' Hong', ' Italy', ' Scotland', ' France', ' Cambodia', ' Ecuador', ' Laos', ' Peru', ' Ireland']))
+'education'      : [' 7th-8th', ' Prof-school', ' 1st-4th', ' Assoc-voc', ' Masters', ' Assoc-acdm', ' 9th', ' Doctorate', ' Bachelors', ' 5th-6th', ' Some-college',
+                    ' 10th', ' 11th', ' HS-grad', ' Preschool', ' 12th']
+'marital-status' : [' Separated', ' Divorced', ' Married-spouse-absent', ' Widowed', ' Married-AF-spouse', ' Never-married', ' Married-civ-spouse']
+'occupation'     : [' Armed-Forces', ' Craft-repair', ' Other-service', ' Transport-moving', ' Prof-specialty', ' Sales', ' Machine-op-inspct', ' Exec-managerial',
+                    ' Handlers-cleaners', ' Protective-serv', ' Adm-clerical', ' Tech-support', ' ?', ' Farming-fishing', ' Priv-house-serv']
+
+
+

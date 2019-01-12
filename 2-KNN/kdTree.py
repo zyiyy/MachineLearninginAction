@@ -271,7 +271,7 @@ if __name__ == '__main__':
     kdRoot = kdTree(dataList, labelList)
     print(kdRoot.transfer_dict(kdRoot.root))
     print(kdRoot.length)
-    label, nodeList = kdRoot.knn_algo([6, 3.8], k=7)
+    label, nodeList = kdRoot.knn_algo([6, 3.8], k=1)
     print(nodeList)
 
     datingDataMat, datingLabels = file2matrix('./data/datingTestSet.txt')
@@ -286,6 +286,7 @@ if __name__ == '__main__':
         if classifierResult != datingLabels[i]:
             errorCount += 1.0
     print(errorCount)
+
 
 
 

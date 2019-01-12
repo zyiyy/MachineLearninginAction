@@ -5,3 +5,9 @@ datingTestSet.txt说明
 2. 玩视频游戏所耗时间百分比
 3. 每周消费的冰淇淋公升数
 4. largeDoses : 极具魅力; smallDoses : 魅力一般; didntLike : 不喜欢;
+
+
+Tips :
+
+三个特征维度具有不用的量纲和量级, 适合使用标准化.
+平衡数据集, {'didntLike': 342, 'largeDoses': 327, 'smallDoses': 331}.

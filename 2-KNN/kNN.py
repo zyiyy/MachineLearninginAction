@@ -61,6 +61,7 @@ def classify0(inX, dataSet, labels, k):
 def file2matrix(filename):
     # 标签的字典
     love_dictionary = {'largeDoses': 3, 'smallDoses': 2, 'didntLike': 1}
+    label_count = {}
     with open(filename, 'r') as f:
         arrayLines = f.readlines()
         numberOfLines = len(arrayLines)
@@ -74,7 +75,12 @@ def file2matrix(filename):
             listFromLine = line.split('\t')
             returnMat[index] = listFromLine[0:3]
             classLabelVector.append(int(love_dictionary[listFromLine[-1]]))
+            if listFromLine[-1] not in label_count:
+                label_count[listFromLine[-1]] = 1
+            else:
+                label_count[listFromLine[-1]] += 1
             index += 1
+        # print(label_count)
         return returnMat, classLabelVector
 
 
@@ -98,22 +104,25 @@ def standardization(dataSet):
 
 
 # 约会数据集kNN效果测评
-def datingClassTest():
+def datingClassTest(k=3, normData=True):
     datingDataMat, datingLabels = file2matrix('./data/datingTestSet.txt')
     hoRatio = 0.1
-    # normDataMat = datingDataMat
-    normDataMat, _, _ = autoNorm(datingDataMat)
-    # normDataMat, _, _ = standardization(datingDataMat)
+    if normData:
+        normDataMat, _, _ = autoNorm(datingDataMat)
+        # normDataMat, _, _ = standardization(datingDataMat)
+    else:
+        normDataMat = datingDataMat
     m = normDataMat.shape[0]
     numTestVecs = int(hoRatio * m)
     errorCount = 0
     for i in range(numTestVecs):
-        classifierResult = classify0(normDataMat[i], normDataMat[numTestVecs:], datingLabels[numTestVecs:], k=3)
+        classifierResult = classify0(normDataMat[i], normDataMat[numTestVecs:], datingLabels[numTestVecs:], k=k)
         print('the classifier came back with : {}, the real answer is : {}'.format(classifierResult, datingLabels[i]))
         if classifierResult != datingLabels[i]:
             errorCount += 1.0
     print('ErrorCount is {}.'.format(errorCount))
     print('Accuracy is {}.'.format(1 - errorCount / float(numTestVecs)))
+    return 1 - errorCount / float(numTestVecs)
 
 
 # 约会新样本kNN预测
@@ -168,10 +177,34 @@ def handwritingClassTest():
     print('Accuracy is {}.'.format(1 - errorCount / float(mTest)))
 
 
+def show():
+    accuracy = {}
+    parameters = dict(k=range(1, 10), normData=[True, False])
+    for k in parameters.get('k'):
+        for normData in parameters.get('normData'):
+            accuracy.setdefault(normData, [])
+            accuracy[normData].append(datingClassTest(k=k, normData=normData))
+    print(accuracy)
+    fig = plt.figure()
+    ax = fig.add_subplot(1, 1, 1)
+    ax.axis([0, 10, 0, 1])
+    plt.xlabel('k')
+    plt.ylabel('accuracy')
+    ax.plot(range(1, 10), accuracy[True], c='pink')
+    ax.plot([0, 1], [0, accuracy[True][0]], c='pink')
+    ax.plot(range(1, 10), accuracy[False], c='steelblue')
+    ax.plot([0, 1], [0, accuracy[False][0]], c='steelblue')
+    plt.show()
+
+
 if __name__ == '__main__':
     # fourDotTest()
     datingClassTest()
     # classifyPerson()
     # handwritingClassTest()
+    show()
+
+
+
 
 
