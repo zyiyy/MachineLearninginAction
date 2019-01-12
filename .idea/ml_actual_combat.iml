@@ -6,6 +6,7 @@
       <sourceFolder url="file://$MODULE_DIR$/2-KNN" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/sklearn" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/3-DecisionTree" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/demo" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/venv" />
     </content>
     <orderEntry type="jdk" jdkName="Python 2.7" jdkType="Python SDK" />

@@ -43,10 +43,16 @@ print('skLearn end:' + time.ctime())
 
 from kdTree import kdTree
 kdRoot = kdTree(X, y)
+# from kdTree_heap import kdTree_heap
+# kdRoot = kdTree_heap(X, y)    # 当k较大时不如直接用list排序, 不建议使用
 # print(kdRoot.length)
 print('create tree done:' + time.ctime())
 predict = []
+count = 0
 for x1_test, x2_test in np.c_[x1.ravel(), x2.ravel()]:
+    count += 1
+    if (count + 1) % 1000 == 0:
+        print(str(count + 1) + '/' + str(x1.shape[0] * x1.shape[1]))
     classifierResult, _ = kdRoot.knn_algo([x1_test, x2_test], k=15)
     predict.append(classifierResult)
 predict = np.array(predict).reshape(x1.shape)

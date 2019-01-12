@@ -2,22 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df820b1b-8580-419b-8816-c5d3e92ca4e5" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/2-KNN/extras/view.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3-DecisionTree/data/README" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3-DecisionTree/data/adults/README" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3-DecisionTree/data/adults/adult.data" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3-DecisionTree/data/adults/adult.names" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3-DecisionTree/data/adults/adult.test" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3-DecisionTree/decisionTree_skLearn.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3-DecisionTree/load_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3-DecisionTree/randomForest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3-DecisionTree/treePlotter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2-KNN/kdTree_heap.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/heap.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ml_actual_combat.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ml_actual_combat.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-KNN/data/README" beforeDir="false" afterPath="$PROJECT_DIR$/2-KNN/data/README" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-KNN/kNN.py" beforeDir="false" afterPath="$PROJECT_DIR$/2-KNN/kNN.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-KNN/kNN_sklearn.py" beforeDir="false" afterPath="$PROJECT_DIR$/2-KNN/kNN_sklearn.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-KNN/kdTree.py" beforeDir="false" afterPath="$PROJECT_DIR$/2-KNN/kdTree.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3-DecisionTree/decisionTree.py" beforeDir="false" afterPath="$PROJECT_DIR$/3-DecisionTree/decisionTree.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2-KNN/extras/view.py" beforeDir="false" afterPath="$PROJECT_DIR$/2-KNN/extras/view.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2-KNN/kdTree_Varify.py" beforeDir="false" afterPath="$PROJECT_DIR$/2-KNN/kdTree_Varify.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,28 +22,39 @@
     <SUITE FILE_PATH="coverage/ml_actual_combat$createDist2.coverage" NAME="createDist2 Coverage Results" MODIFIED="1546684144524" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2-KNN/extras" />
     <SUITE FILE_PATH="coverage/ml_actual_combat$treePlotter.coverage" NAME="treePlotter Coverage Results" MODIFIED="1547044032429" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3-DecisionTree" />
     <SUITE FILE_PATH="coverage/ml_actual_combat$randomForest.coverage" NAME="randomForest Coverage Results" MODIFIED="1547277542992" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3-DecisionTree" />
-    <SUITE FILE_PATH="coverage/ml_actual_combat$view.coverage" NAME="view Coverage Results" MODIFIED="1547224528916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2-KNN/extras" />
-    <SUITE FILE_PATH="coverage/ml_actual_combat$kdTree_Varify.coverage" NAME="kdTree_Varify Coverage Results" MODIFIED="1546929431031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2-KNN" />
+    <SUITE FILE_PATH="coverage/ml_actual_combat$view.coverage" NAME="view Coverage Results" MODIFIED="1547330129142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2-KNN/extras" />
+    <SUITE FILE_PATH="coverage/ml_actual_combat$kdTree_Varify.coverage" NAME="kdTree_Varify Coverage Results" MODIFIED="1547328111528" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2-KNN" />
     <SUITE FILE_PATH="coverage/ml_actual_combat$createDist.coverage" NAME="createDist Coverage Results" MODIFIED="1546684065322" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2-KNN/extras" />
+    <SUITE FILE_PATH="coverage/ml_actual_combat$kdTree_heap.coverage" NAME="kdTree_heap Coverage Results" MODIFIED="1547328105730" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2-KNN" />
     <SUITE FILE_PATH="coverage/ml_actual_combat$kNN.coverage" NAME="kNN Coverage Results" MODIFIED="1547200569031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2-KNN" />
     <SUITE FILE_PATH="coverage/ml_actual_combat$decisionTree_skLearn.coverage" NAME="decisionTree_skLearn Coverage Results" MODIFIED="1547240350832" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3-DecisionTree" />
     <SUITE FILE_PATH="coverage/ml_actual_combat$normalization.coverage" NAME="normalization Coverage Results" MODIFIED="1546783091575" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sklearn" />
     <SUITE FILE_PATH="coverage/ml_actual_combat$createFirstPlot.coverage" NAME="createFirstPlot Coverage Results" MODIFIED="1547029163813" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2-KNN/extras" />
     <SUITE FILE_PATH="coverage/ml_actual_combat$kNN_sklearn.coverage" NAME="kNN_sklearn Coverage Results" MODIFIED="1547009941390" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2-KNN" />
     <SUITE FILE_PATH="coverage/ml_actual_combat$createSecondPlot.coverage" NAME="createSecondPlot Coverage Results" MODIFIED="1546684573220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2-KNN/extras" />
-    <SUITE FILE_PATH="coverage/ml_actual_combat$kdTree.coverage" NAME="kdTree Coverage Results" MODIFIED="1547316085017" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2-KNN" />
+    <SUITE FILE_PATH="coverage/ml_actual_combat$kdTree.coverage" NAME="kdTree Coverage Results" MODIFIED="1547329352042" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2-KNN" />
+    <SUITE FILE_PATH="coverage/ml_actual_combat$heap.coverage" NAME="heap Coverage Results" MODIFIED="1547327324718" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2-KNN" />
     <SUITE FILE_PATH="coverage/ml_actual_combat$decisionTree.coverage" NAME="decisionTree Coverage Results" MODIFIED="1547232214015" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3-DecisionTree" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="kdTree.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="kdTree.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/2-KNN/kdTree.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="438">
-              <caret line="288" lean-forward="true" selection-start-line="288" selection-end-line="288" />
+            <state relative-caret-position="1854">
+              <caret line="283" column="51" selection-start-line="283" selection-start-column="51" selection-end-line="283" selection-end-column="51" />
               <folding>
                 <element signature="e#2660#4957#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="treePlotter.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/3-DecisionTree/treePlotter.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-486">
+              <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -90,20 +92,23 @@
         <option value="$PROJECT_DIR$/sklearn/normalization.py" />
         <option value="$PROJECT_DIR$/2-KNN/normalization.py" />
         <option value="$PROJECT_DIR$/2-KNN/extras/__init__.py" />
-        <option value="$PROJECT_DIR$/2-KNN/kdTree_Varify.py" />
         <option value="$PROJECT_DIR$/2-KNN/kNN_sklearn.py" />
         <option value="$PROJECT_DIR$/3-DecisionTree/data/README" />
         <option value="$PROJECT_DIR$/2-KNN/data/README" />
-        <option value="$PROJECT_DIR$/3-DecisionTree/treePlotter.py" />
         <option value="$PROJECT_DIR$/3-DecisionTree/data/adults/README" />
         <option value="$PROJECT_DIR$/2-KNN/kNN.py" />
         <option value="$PROJECT_DIR$/2-KNN/KDTree.py" />
-        <option value="$PROJECT_DIR$/2-KNN/extras/view.py" />
         <option value="$PROJECT_DIR$/3-DecisionTree/load_data.py" />
         <option value="$PROJECT_DIR$/3-DecisionTree/decisionTree.py" />
         <option value="$PROJECT_DIR$/3-DecisionTree/decisionTree_skLearn.py" />
         <option value="$PROJECT_DIR$/3-DecisionTree/randomForest.py" />
         <option value="$PROJECT_DIR$/2-KNN/kdTree.py" />
+        <option value="$PROJECT_DIR$/heap.py" />
+        <option value="$PROJECT_DIR$/2-KNN/heap.py" />
+        <option value="$PROJECT_DIR$/2-KNN/kdTree_Varify.py" />
+        <option value="$PROJECT_DIR$/3-DecisionTree/treePlotter.py" />
+        <option value="$PROJECT_DIR$/2-KNN/kdTree_heap.py" />
+        <option value="$PROJECT_DIR$/2-KNN/extras/view.py" />
       </list>
     </option>
   </component>
@@ -117,10 +122,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="67" />
-    <option name="y" value="40" />
-    <option name="width" value="1299" />
-    <option name="height" value="728" />
+    <option name="x" value="500" />
+    <option name="y" value="251" />
+    <option name="width" value="1647" />
+    <option name="height" value="869" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -140,6 +145,16 @@
               <item name="ml_actual_combat" type="462c0819:PsiDirectoryNode" />
               <item name="2-KNN" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="ml_actual_combat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ml_actual_combat" type="462c0819:PsiDirectoryNode" />
+              <item name="3-DecisionTree" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ml_actual_combat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ml_actual_combat" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -155,18 +170,18 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/demo" />
+      <recent name="$PROJECT_DIR$/2-KNN" />
+      <recent name="$PROJECT_DIR$/3-DecisionTree/storage" />
+      <recent name="$PROJECT_DIR$/sklearn" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/3-DecisionTree/data/adults" />
       <recent name="$PROJECT_DIR$/3-DecisionTree/data" />
       <recent name="$PROJECT_DIR$/2-KNN/extras" />
       <recent name="$PROJECT_DIR$/2-KNN/data" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/3-DecisionTree/storage" />
-      <recent name="$PROJECT_DIR$/sklearn" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/2-KNN" />
-      <recent name="$PROJECT_DIR$/sklearn/data/wine.data" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -181,8 +196,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.kdTree">
-    <configuration name="decisionTree" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.view">
+    <configuration name="heap" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ml_actual_combat" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -190,31 +205,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/3-DecisionTree" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2-KNN" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3-DecisionTree/decisionTree.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="decisionTree_skLearn" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="ml_actual_combat" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/3-DecisionTree" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3-DecisionTree/decisionTree_skLearn.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/demo/heap.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -239,7 +235,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="load_data" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="kdTree_Varify" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ml_actual_combat" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -247,18 +243,18 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/3-DecisionTree" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2-KNN" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3-DecisionTree/load_data.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2-KNN/kdTree_Varify.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="randomForest" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="kdTree_heap" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ml_actual_combat" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -266,31 +262,50 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/3-DecisionTree" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2-KNN" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3-DecisionTree/randomForest.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2-KNN/kdTree_heap.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="view" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ml_actual_combat" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2-KNN/extras" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2-KNN/extras/view.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.randomForest" />
-      <item itemvalue="Python.load_data" />
-      <item itemvalue="Python.decisionTree" />
-      <item itemvalue="Python.decisionTree_skLearn" />
       <item itemvalue="Python.kdTree" />
+      <item itemvalue="Python.kdTree_heap" />
+      <item itemvalue="Python.heap" />
+      <item itemvalue="Python.kdTree_Varify" />
+      <item itemvalue="Python.view" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.view" />
         <item itemvalue="Python.kdTree" />
-        <item itemvalue="Python.randomForest" />
-        <item itemvalue="Python.decisionTree_skLearn" />
-        <item itemvalue="Python.load_data" />
-        <item itemvalue="Python.decisionTree" />
+        <item itemvalue="Python.kdTree_Varify" />
+        <item itemvalue="Python.kdTree_heap" />
+        <item itemvalue="Python.heap" />
       </list>
     </recent_temporary>
   </component>
@@ -308,7 +323,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="25" width="1853" height="1055" extended-state="7" />
+    <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="7" />
@@ -316,12 +331,12 @@
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.3293979" />
       <window_info anchor="bottom" id="Python Console" order="13" weight="0.32970026" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.20306966" />
+      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.28099173" />
       <window_info anchor="bottom" id="Terminal" order="12" weight="0.48037383" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.5777778" visible="true" weight="0.19988707" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.5777778" visible="true" weight="0.18690005" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="right" id="SciView" order="5" sideWeight="0.57461405" visible="true" weight="0.17221908" />
+      <window_info active="true" anchor="right" id="SciView" order="5" sideWeight="0.57461405" visible="true" weight="0.24223602" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="6" weight="0.3775701" />
@@ -373,21 +388,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file:///usr/local/lib/python2.7/dist-packages/numpy/core/fromnumeric.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-378">
-          <caret line="868" column="54" selection-start-line="868" selection-start-column="54" selection-end-line="868" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python2.7/dist-packages/sklearn/neighbors/classification.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1944">
-          <caret line="117" column="8" selection-start-line="117" selection-start-column="8" selection-end-line="117" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/3-DecisionTree/treeStorage2.png" />
     <entry file="file://$PROJECT_DIR$/2-KNN/data/digits/README">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -537,13 +537,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2-KNN/kNN_sklearn.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="40" column="60" selection-start-line="40" selection-start-column="60" selection-end-line="40" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/2-KNN/extras/createFirstPlot.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -579,28 +572,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2-KNN/kdTree_Varify.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="1" selection-start-column="1" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/2-KNN/KDTree.py" />
-    <entry file="file://$PROJECT_DIR$/2-KNN/kNN.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1384">
-          <caret line="42" column="21" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2-KNN/extras/view.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="50" column="36" lean-forward="true" selection-start-line="50" selection-start-column="36" selection-end-line="50" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/3-DecisionTree/data/lenses.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -638,13 +610,6 @@
     <entry file="file://$PROJECT_DIR$/3-DecisionTree/adults.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/3-DecisionTree/treePlotter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2142">
-          <caret line="119" column="4" selection-start-line="119" selection-start-column="4" selection-end-line="119" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/3-DecisionTree/randomForest.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="556">
@@ -662,16 +627,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/3-DecisionTree/decisionTree_skLearn.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="87" column="25" selection-start-line="87" selection-start-column="25" selection-end-line="87" selection-end-column="25" />
-          <folding>
-            <element signature="e#17#64#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/3-DecisionTree/decisionTree.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-162">
@@ -682,13 +637,91 @@
         </state>
       </provider>
     </entry>
+    <entry file="file:///usr/lib/python2.7/heapq.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="471">
+          <caret line="139" column="4" selection-start-line="139" selection-start-column="4" selection-end-line="139" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3-DecisionTree/decisionTree_skLearn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1268">
+          <caret line="87" column="25" selection-start-line="87" selection-start-column="25" selection-end-line="87" selection-end-column="25" />
+          <folding>
+            <element signature="e#17#64#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2-KNN/kdTree_Varify.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="42" lean-forward="true" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
+          <folding>
+            <element signature="e#16#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2-KNN/kNN.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="42" column="21" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2-KNN/kNN_sklearn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="40" column="60" selection-start-line="40" selection-start-column="60" selection-end-line="40" selection-end-column="60" />
+          <folding>
+            <element signature="e#17#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/heap.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2-KNN/kdTree_heap.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="11" lean-forward="true" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+          <folding>
+            <element signature="e#16#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/2-KNN/kdTree.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="288" lean-forward="true" selection-start-line="288" selection-end-line="288" />
+        <state relative-caret-position="1854">
+          <caret line="283" column="51" selection-start-line="283" selection-start-column="51" selection-end-line="283" selection-end-column="51" />
           <folding>
             <element signature="e#2660#4957#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2-KNN/extras/view.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="49" column="12" lean-forward="true" selection-start-line="49" selection-start-column="12" selection-end-line="49" selection-end-column="12" />
+          <folding>
+            <element signature="e#16#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3-DecisionTree/treePlotter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-486">
+          <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
         </state>
       </provider>
     </entry>
