@@ -115,7 +115,7 @@ if __name__ == '__main__':
     labels = ['age', 'workclass', 'fnlwgt', 'education', 'education-num', 'marital-status', 'occupation',
                               'relationship', 'race', 'sex', 'capital-gain', 'capital-loss', 'hours-per-week', 'native-country']
     # 拼接训练集和测试集
-    data = data.append(data_test)
+    data = data.append(data_test, ignore_index=True)
 
     # 把data中的连续值转化为离散值
     # num_describe, _ = describe(data, prt=True)
@@ -127,6 +127,7 @@ if __name__ == '__main__':
         if type(data[label][0]).__name__ == 'float64':
             # print(label)
             data[label] = data[label].map(lambda x: str(x > labels_mean_dict[label]))
+    data.to_csv('./data/adults/processed_adults.csv')
 
     # print(data[0:10])
 

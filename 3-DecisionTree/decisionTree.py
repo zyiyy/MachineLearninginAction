@@ -181,6 +181,7 @@ def createTree(dataSet, labels, max_depth=None, by='infoGain', max_features=None
     # 最优特征名
     bestFeatLabel = labels[bestFeat]
     myTree = {bestFeatLabel: {}}
+    myTree[bestFeatLabel]['majorClass'] = majorityCnt(classList)
     # 删除这个特征
     del(labels[bestFeat])
     feaValues = [example[bestFeat] for example in dataSet]
@@ -213,11 +214,17 @@ def classify(inputTree, featLables, testVec):
         # print('terminal' + testVec[featIndex])
         # print(firstStr)
         # print(inputTree)
-        classList = {}
-        searchTree(inputTree, classList)
-        classLabel = sorted(classList.items(), key=lambda item: item[1], reverse=True)[0][0]
+        # classList = {}
+        # searchTree(inputTree, classList)
+        # classLabel = sorted(classList.items(), key=lambda item: item[1], reverse=True)[0][0]
         # print(classList)
         # print(classLabel)
+
+        # print(inputTree)
+        # print(inputTree.keys())
+        # print(testVec[featIndex])
+        # print(inputTree[firstStr]['majorClass'])
+        classLabel = inputTree[firstStr]['majorClass']
     return classLabel
 
 
@@ -294,8 +301,6 @@ if __name__ == '__main__':
     classList = {}
     searchTree(lensesTree, classList)
     print(classList)
-
-
 
 
 

@@ -51,7 +51,7 @@ def randomForestClassify(myForest, featLables, testVec):
     return sorted(classCount.items(), key=lambda item: item[1], reverse=True)[0][0]
 
 
-# 测试结果
+# 测试结果, 准确率提升了约百分之一
 def test(myForest, labels, data, prt=True):
     '''
     测试分类器效果
@@ -128,7 +128,7 @@ if __name__ == '__main__':
     data_train = data.head(len(data) - len(data_test)).values.tolist()
     data_test = data.tail(len(data_test)).values.tolist()
 
-    rForest = randomForest(data_train, labels, num_trees=10, max_depth=8)
+    rForest = randomForest(data_train, labels, num_trees=100, max_depth=8)
     # for tree in rForest:
     #     printTree(tree)
     # 分别在训练集,测试集上测试模型的效果
