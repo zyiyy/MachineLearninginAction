@@ -9,6 +9,8 @@ import time
 # X为样本特征, y为样本类别输出, 共1000个样本, 每个样本2个特征, 没有冗余特征, 每个类别一个簇, 输出3个类别
 X, y = make_classification(n_samples=1000, n_features=2, n_redundant=0, n_clusters_per_class=1, n_classes=3)
 
+plt.figure()
+print(type(X))
 plt.scatter(X[:, 0], X[:, 1], marker='*', c=y)
 plt.show()
 
@@ -26,7 +28,7 @@ x1_min, x1_max = X[:, 0].min() - 1, X[:, 0].max() + 1
 x2_min, x2_max = X[:, 1].min() - 1, X[:, 1].max() + 1
 
 # 生成随机数据作为测试集, 作用类似二重循环
-x1, x2 = np.meshgrid(np.arange(x1_min, x1_max, 0.02), np.arange(x2_min, x2_max, 0.02))
+x1, x2 = np.meshgrid(np.arange(x1_min, x1_max, 0.05), np.arange(x2_min, x2_max, 0.05))
 
 predict = clf.predict(np.c_[x1.ravel(), x2.ravel()])
 

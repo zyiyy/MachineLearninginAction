@@ -9,6 +9,7 @@
       <sourceFolder url="file://$MODULE_DIR$/demo" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/4-naiveBayes" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/5-LogisticRegression" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/7-AdaBoost" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/venv" />
     </content>
     <orderEntry type="jdk" jdkName="Python 2.7" jdkType="Python SDK" />
