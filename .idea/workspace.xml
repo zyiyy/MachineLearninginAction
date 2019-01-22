@@ -2,18 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df820b1b-8580-419b-8816-c5d3e92ca4e5" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/5-LogisticRegression/data/horseColicTest.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5-LogisticRegression/data/horseColicTraining.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5-LogisticRegression/data/iris/iris.data" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5-LogisticRegression/data/iris/iris.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5-LogisticRegression/data/iris/iris.names" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5-LogisticRegression/data/testSet.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5-LogisticRegression/logisticRegression.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5-LogisticRegression/softmax.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5-LogisticRegression/view.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ml_actual_combat.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ml_actual_combat.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-KNN/extras/view.py" beforeDir="false" afterPath="$PROJECT_DIR$/2-KNN/extras/view.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README" beforeDir="false" afterPath="$PROJECT_DIR$/README" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -69,7 +57,7 @@
       <file leaf-file-name="logisticRegression.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/5-LogisticRegression/logisticRegression.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="990">
+            <state relative-caret-position="714">
               <caret line="55" selection-start-line="55" selection-end-line="55" />
               <folding>
                 <element signature="e#16#34#0" expanded="true" />
@@ -78,11 +66,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="randomForest.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="randomForest.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/3-DecisionTree/randomForest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1100">
+            <state relative-caret-position="18">
               <caret line="42" column="21" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="20" column="18" lean-forward="true" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -139,7 +136,6 @@
         <option value="$PROJECT_DIR$/4-naiveBayes/data/email/README" />
         <option value="$PROJECT_DIR$/4-naiveBayes/naiveBayes.py" />
         <option value="$PROJECT_DIR$/4-naiveBayes/naiveBayes_skLearn.py" />
-        <option value="$PROJECT_DIR$/README" />
         <option value="$PROJECT_DIR$/5-LogisticRegression/gradientDescent.py" />
         <option value="$PROJECT_DIR$/2-KNN/extras/view.py" />
         <option value="$PROJECT_DIR$/2-KNN/extras/createFirstPlot.py" />
@@ -149,6 +145,7 @@
         <option value="$PROJECT_DIR$/5-LogisticRegression/logisticRegression.py" />
         <option value="$PROJECT_DIR$/5-LogisticRegression/ss.py" />
         <option value="$PROJECT_DIR$/5-LogisticRegression/softmax.py" />
+        <option value="$PROJECT_DIR$/README" />
       </list>
     </option>
   </component>
@@ -173,7 +170,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -186,10 +182,16 @@
               <item name="ml_actual_combat" type="462c0819:PsiDirectoryNode" />
               <item name="3-DecisionTree" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="ml_actual_combat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ml_actual_combat" type="462c0819:PsiDirectoryNode" />
+              <item name="5-LogisticRegression" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -372,47 +374,47 @@
       <window_info anchor="bottom" id="Python Console" order="13" weight="0.32970026" />
       <window_info anchor="bottom" id="Run" order="3" weight="0.16883117" />
       <window_info anchor="bottom" id="Terminal" order="12" weight="0.46635184" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.5777778" visible="true" weight="0.15923207" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.5777778" visible="true" weight="0.16262" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" weight="0.2377188" />
-      <window_info anchor="bottom" id="Find" order="2" weight="0.3293979" />
       <window_info anchor="right" id="SciView" order="5" sideWeight="0.57461405" visible="true" weight="0.25974026" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="6" weight="0.37662336" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.3293979" />
       <window_info anchor="right" x="0" y="0" width="255" height="509" id="Documentation" order="4" sideWeight="0.42538592" side_tool="true" visible="true" weight="0.27498588" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="1" />
       <window_info active="true" anchor="bottom" id="Concurrent Activities Diagram" order="0" visible="true" weight="0.32988507" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.5777778" visible="true" weight="0.20327498" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.3293979" />
       <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.21841794" />
-      <window_info anchor="bottom" id="Find" order="2" weight="0.3293979" />
+      <window_info anchor="bottom" id="Python Console" order="13" weight="0.32970026" />
+      <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Debug" order="6" weight="0.37662336" />
       <window_info anchor="right" x="0" y="0" width="255" height="509" id="Documentation" order="4" sideWeight="0.42538592" side_tool="true" visible="true" weight="0.27498588" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Terminal" order="12" weight="0.48037383" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="11" weight="0.3293979" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="SciView" order="5" sideWeight="0.57461405" visible="true" weight="0.28853756" />
-      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.3293979" />
       <window_info active="true" anchor="bottom" id="Concurrent Activities Diagram" order="0" visible="true" weight="0.32988507" />
-      <window_info anchor="bottom" id="Python Console" order="13" weight="0.32970026" />
+      <window_info id="Favorites" order="2" side_tool="true" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -593,13 +595,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/4-naiveBayes/naiveBayes_skLearn.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="558">
@@ -648,9 +643,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="25" lean-forward="true" selection-end-line="25" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -678,13 +670,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/5-LogisticRegression/logRegres.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="93" column="4" lean-forward="true" selection-start-line="93" selection-start-column="4" selection-end-line="93" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/5-LogisticRegression/logRegres.py" />
     <entry file="file://$PROJECT_DIR$/5-LogisticRegression/data/iris/iris.names">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -702,9 +688,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-          <folding>
-            <element signature="e#17#35#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -715,23 +698,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/5-LogisticRegression/ss.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="58" column="19" selection-start-line="58" selection-start-column="19" selection-end-line="58" selection-end-column="19" />
-          <folding>
-            <element signature="e#17#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/5-LogisticRegression/softmax(复件).py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="20" column="37" selection-end-line="147" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/5-LogisticRegression/ss.py" />
+    <entry file="file://$PROJECT_DIR$/5-LogisticRegression/softmax(复件).py" />
     <entry file="file://$PROJECT_DIR$/5-LogisticRegression/softmax.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="457">
@@ -739,9 +707,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/3-DecisionTree/randomForest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="42" column="21" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/5-LogisticRegression/logisticRegression.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
+        <state relative-caret-position="714">
           <caret line="55" selection-start-line="55" selection-end-line="55" />
           <folding>
             <element signature="e#16#34#0" expanded="true" />
@@ -749,10 +724,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/3-DecisionTree/randomForest.py">
+    <entry file="file://$PROJECT_DIR$/README">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1100">
-          <caret line="42" column="21" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
+        <state relative-caret-position="360">
+          <caret line="20" column="18" lean-forward="true" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
         </state>
       </provider>
     </entry>

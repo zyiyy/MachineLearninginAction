@@ -14,3 +14,8 @@
 
 1) 朴素贝叶斯
 2) skLearn库中朴素贝叶斯使用以及参数说明
+
+4. 5-LogisticRegression
+
+1) 二项LogisticRegression
+2) softmax & L2正则化
