@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df820b1b-8580-419b-8816-c5d3e92ca4e5" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/README" beforeDir="false" afterPath="$PROJECT_DIR$/README" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/7-AdaBoost/adaBoost.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/7-AdaBoost/data/horseColicTest2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/7-AdaBoost/data/horseColicTraining2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -33,6 +36,7 @@
     <SUITE FILE_PATH="coverage/ml_actual_combat$kNN.coverage" NAME="kNN Coverage Results" MODIFIED="1547200569031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2-KNN" />
     <SUITE FILE_PATH="coverage/ml_actual_combat$logisticRegression.coverage" NAME="logisticRegression Coverage Results" MODIFIED="1548141601684" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/5-LogisticRegression" />
     <SUITE FILE_PATH="coverage/ml_actual_combat$createFirstPlot.coverage" NAME="createFirstPlot Coverage Results" MODIFIED="1547029163813" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2-KNN/extras" />
+    <SUITE FILE_PATH="coverage/ml_actual_combat$adaBoost.coverage" NAME="adaBoost Coverage Results" MODIFIED="1548207417795" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/7-AdaBoost" />
     <SUITE FILE_PATH="coverage/ml_actual_combat$createSecondPlot.coverage" NAME="createSecondPlot Coverage Results" MODIFIED="1546684573220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2-KNN/extras" />
     <SUITE FILE_PATH="coverage/ml_actual_combat$plot.coverage" NAME="plot Coverage Results" MODIFIED="1547343231813" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo" />
     <SUITE FILE_PATH="coverage/ml_actual_combat$heap.coverage" NAME="heap Coverage Results" MODIFIED="1547327324718" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2-KNN" />
@@ -53,33 +57,15 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="logisticRegression.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/5-LogisticRegression/logisticRegression.py">
+    <leaf>
+      <file leaf-file-name="adaBoost.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/7-AdaBoost/adaBoost.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="714">
-              <caret line="55" selection-start-line="55" selection-end-line="55" />
+            <state relative-caret-position="283">
+              <caret line="232" lean-forward="true" selection-start-line="232" selection-end-line="232" />
               <folding>
                 <element signature="e#16#34#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="randomForest.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/3-DecisionTree/randomForest.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="42" column="21" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="20" column="18" lean-forward="true" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -146,6 +132,7 @@
         <option value="$PROJECT_DIR$/5-LogisticRegression/ss.py" />
         <option value="$PROJECT_DIR$/5-LogisticRegression/softmax.py" />
         <option value="$PROJECT_DIR$/README" />
+        <option value="$PROJECT_DIR$/7-AdaBoost/adaBoost.py" />
       </list>
     </option>
   </component>
@@ -159,10 +146,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="114" />
-    <option name="y" value="366" />
-    <option name="width" value="1657" />
-    <option name="height" value="1053" />
+    <option name="x" value="883" />
+    <option name="y" value="339" />
+    <option name="width" value="1843" />
+    <option name="height" value="789" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -170,6 +157,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -177,21 +165,10 @@
               <item name="ml_actual_combat" type="b2602c69:ProjectViewProjectNode" />
               <item name="ml_actual_combat" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="ml_actual_combat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ml_actual_combat" type="462c0819:PsiDirectoryNode" />
-              <item name="3-DecisionTree" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ml_actual_combat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ml_actual_combat" type="462c0819:PsiDirectoryNode" />
-              <item name="5-LogisticRegression" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -202,19 +179,19 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/7-AdaBoost/data" />
+      <recent name="$PROJECT_DIR$/5-LogisticRegression/data/iris" />
+      <recent name="$PROJECT_DIR$/5-LogisticRegression" />
+      <recent name="$PROJECT_DIR$/5-LogisticRegression/data" />
+      <recent name="$PROJECT_DIR$/4-naiveBayes/data" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/5-LogisticRegression/data/iris" />
       <recent name="$PROJECT_DIR$/demo" />
       <recent name="$PROJECT_DIR$/2-KNN" />
       <recent name="$PROJECT_DIR$/3-DecisionTree/storage" />
       <recent name="$PROJECT_DIR$/sklearn" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/5-LogisticRegression/data/iris" />
-      <recent name="$PROJECT_DIR$/5-LogisticRegression" />
-      <recent name="$PROJECT_DIR$/5-LogisticRegression/data" />
-      <recent name="$PROJECT_DIR$/4-naiveBayes/data" />
-      <recent name="$PROJECT_DIR$/3-DecisionTree/data/adults" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -229,7 +206,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.softmax">
+  <component name="RunManager" selected="Python.adaBoost">
+    <configuration name="adaBoost" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ml_actual_combat" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/7-AdaBoost" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/7-AdaBoost/adaBoost.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="logRegres" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ml_actual_combat" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -306,39 +302,20 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="view (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="ml_actual_combat" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/5-LogisticRegression" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/5-LogisticRegression/view.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <list>
       <item itemvalue="Python.logisticRegression" />
       <item itemvalue="Python.softmax" />
       <item itemvalue="Python.logRegres" />
-      <item itemvalue="Python.view (1)" />
       <item itemvalue="Python.ss" />
+      <item itemvalue="Python.adaBoost" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.adaBoost" />
         <item itemvalue="Python.softmax" />
         <item itemvalue="Python.ss" />
         <item itemvalue="Python.logisticRegression" />
         <item itemvalue="Python.logRegres" />
-        <item itemvalue="Python.view (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -366,29 +343,30 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="10" weight="0.3293979" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.3293979" />
       <window_info anchor="bottom" id="Python Console" order="13" weight="0.32970026" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.16883117" />
+      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.25974026" />
       <window_info anchor="bottom" id="Terminal" order="12" weight="0.46635184" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.5777778" visible="true" weight="0.16262" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.5777778" visible="true" weight="0.16939582" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" weight="0.2377188" />
-      <window_info anchor="right" id="SciView" order="5" sideWeight="0.57461405" visible="true" weight="0.25974026" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.3293979" />
+      <window_info anchor="right" id="SciView" order="5" sideWeight="0.57461405" visible="true" weight="0.3738001" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="6" weight="0.37662336" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="2" weight="0.3293979" />
-      <window_info anchor="right" x="0" y="0" width="255" height="509" id="Documentation" order="4" sideWeight="0.42538592" side_tool="true" visible="true" weight="0.27498588" />
       <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="right" x="0" y="0" width="255" height="509" id="Documentation" order="4" sideWeight="0.42538592" side_tool="true" visible="true" weight="0.27498588" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info active="true" anchor="bottom" id="Concurrent Activities Diagram" order="0" visible="true" weight="0.32988507" />
     </layout>
     <layout-to-restore>
@@ -425,34 +403,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="26" />
+      <option name="time" value="27" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/3-DecisionTree/adults.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file:///usr/lib/python2.7/heapq.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="471">
-          <caret line="139" column="4" selection-start-line="139" selection-start-column="4" selection-end-line="139" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2-KNN/kNN.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2541">
-          <caret line="42" column="21" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2-KNN/kdTree_heap.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4650">
-          <caret line="2" column="11" lean-forward="true" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/local/lib/python2.7/dist-packages/matplotlib/axes/_axes.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3870">
@@ -610,13 +564,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/5-LogisticRegression/gradientDescent.py" />
-    <entry file="file://$PROJECT_DIR$/5-LogisticRegression/data/testSet.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="4" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/5-LogisticRegression/testSet.txt" />
     <entry file="file://$PROJECT_DIR$/2-KNN/extras/view.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -678,9 +625,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/5-LogisticRegression/data/horseColicTest.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/5-LogisticRegression/data/iris/iris.jpeg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -707,6 +651,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/3-DecisionTree/randomForest.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
@@ -716,7 +667,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/5-LogisticRegression/logisticRegression.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
+        <state relative-caret-position="-1170">
           <caret line="55" selection-start-line="55" selection-end-line="55" />
           <folding>
             <element signature="e#16#34#0" expanded="true" />
@@ -724,10 +675,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README">
+    <entry file="file://$PROJECT_DIR$/5-LogisticRegression/data/horseColicTest.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7-AdaBoost/data/horseColicTest.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5-LogisticRegression/data/testSet.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="18" lean-forward="true" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+        <state>
+          <caret selection-end-line="4" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7-AdaBoost/data/horseColicTest2.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7-AdaBoost/data/horseColicTraining2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4864" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7-AdaBoost/adaBoost.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="232" lean-forward="true" selection-start-line="232" selection-end-line="232" />
+          <folding>
+            <element signature="e#16#34#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -19,3 +19,8 @@
 
 1) 二项LogisticRegression
 2) softmax & L2正则化
+
+5. 7-AdaBoost
+
+1) AdaBoost
+2) ROC曲线
